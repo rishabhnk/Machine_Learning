@@ -1,4 +1,4 @@
-# Machine_Learning
+# #100DaysofMLCode
 
 I will be doing 100 days of Machine learning, an hour a day
 
