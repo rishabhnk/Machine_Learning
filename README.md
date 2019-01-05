@@ -17,4 +17,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Jan 5th 2019:
    **Learned Classification ML Models**- Kernel SVM from Machine Learning A-Z Udemy Course
+   
    Thoughts: Got a lot more complex. Very intersting! 
+   
