@@ -23,4 +23,4 @@ I will be doing 100 days of Machine learning, an hour a day
 ### Jan 6th 2019:
    **Learned Classification ML Models**- Finished Kernel SVM and started learning the Naive Bayes Classifier from Machine Learning A-Z Udemy Course
    
-   Thoughts: This was pretty intersting and I remember learning this in AP stats so it was not too hard.
+   Thoughts: This was pretty intersting and I remember learning this in AP stats so it was pretty easy.
