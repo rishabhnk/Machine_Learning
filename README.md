@@ -29,3 +29,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Learned Classification ML Models**- Finished Naive Bayes Classification and Deicision Tree Classification from Machine Learning A-Z Udemy Course
    
    Thoughts: Pretty simple. I have one more classification algorithm left. After that, I will review how to evaluate model performance and then work on the cheat sheet and higher level algorithms.
+
+### Jan 8th 2019:
+   **Learned Classification ML Models**- Finished Random Forest Classification and started learning how to evaluate classification models performance from Machine Learning A-Z Udemy Course
+   
+   Thoughts: This was a good session. After I finish the evaluating classification models performance, I will review the same section for regression and then go on to either neural networks or clustering.
