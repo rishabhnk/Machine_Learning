@@ -34,3 +34,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Learned Classification ML Models**- Finished Random Forest Classification and started learning how to evaluate classification models performance from Machine Learning A-Z Udemy Course
    
    Thoughts: This was a good session. After I finish the evaluating classification models performance, I will review the same section for regression and then go on to either neural networks or clustering.
+  
+### Jan 9th 2019:
+   **Applied Learning**- I applied what I have been learning to a new project from DrivenData. I joined the Predict Blood Donations competeition and started writing the code.
+   
+   Thoughts: I knew machine learning would be ab tough and exiting journey but it might be a little tougher than I imagined. I cant wait to finish ...
