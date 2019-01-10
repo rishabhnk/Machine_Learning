@@ -39,3 +39,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Applied Learning**- I applied what I have been learning to a new project from DrivenData. I joined the Predict Blood Donations competeition and started writing the code.
    
    Thoughts: I knew machine learning would be ab tough and exiting journey but it might be a little tougher than I imagined. I cant wait to finish ...
+   
+### Jan 10th 2019:
+   **Applied Learning**- I continued working on my new project from DrivenData. 
+   
+   Thoughts: I think I am almost done. Tomorrow, I will start the Model Selection & Boosting section in the Machine Learning A-Z Udemy Course so I can improve my project.
