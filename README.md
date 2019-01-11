@@ -44,3 +44,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Applied Learning**- I continued working on my new project from DrivenData. 
    
    Thoughts: I think I am almost done. Tomorrow, I will start the Model Selection & Boosting section in the Machine Learning A-Z Udemy Course so I can improve my project.
+
+### Jan 11th 2019:
+   **Applied Learning**- I started the Model Selecion section and learned about k-fold cross validation and I continued working on my new project from DrivenData- I added k-fold cross validation and made it so we can evaluate the model better by splitting the training data into training and testing sets
+   
+   Thoughts: I will be able to finish this project once I get through this section in the Machine Learning A-Z Udemy Course. Tomorrow, I will continue the course section and work on my project more.
