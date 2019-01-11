@@ -9,10 +9,14 @@ import pandas as pd
 trainingDataset = pd.read_csv('BloodDonationsTrainingData.csv')
 testingDataset = pd.read_csv('BloodDonationsTestingData.csv')
 
-X_train = trainingDataset.iloc[:, [1,2,3,4]].values
-y_train = trainingDataset.iloc[:, 5].values
+X = trainingDataset.iloc[:, [1,2,3,4]].values
+y = trainingDataset.iloc[:, 5].values
 
-X_test = testingDataset.iloc[:, [1,2,3,4]].values
+X_testingDataset = testingDataset.iloc[:, [1,2,3,4]].values
+
+# Splitting the dataset into the Training set and Test set
+from sklearn.cross_validation import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 # Feature Scaling
 from sklearn.preprocessing import StandardScaler
@@ -26,26 +30,30 @@ classifier = RandomForestClassifier(n_estimators = 10, criterion = 'entropy', ra
 classifier.fit(X_train, y_train)
 
 # Predicting the Test set results
-y_pred = classifier.predict_proba(X_train)
+y_pred = classifier.predict_proba(X_test)
 y_pred = y_pred[:, 1]
-y_predLabel = classifier.predict(X_train)
+y_predLabel = classifier.predict(X_test)
 
-# Regression Metrics - Confusion Matrix, Accuracy score, CLassification Report
+# Regression Metrics - Confusion Matrix, Accuracy score, CLassification Report, k-fold cross validation
 from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_train, y_predLabel)
+cm = confusion_matrix(y_test, y_predLabel)
 
-classifier.score(X_train, y_train)
+classifier.score(X_test, y_test)
 from sklearn.metrics import accuracy_score
-accuracy_score(y_train, y_predLabel)
-    """=0.9236"""
+accuracy_score(y_test, y_predLabel)
     
 from sklearn.metrics import classification_report
-print(classification_report(y_train, y_predLabel))
+print(classification_report(y_test, y_predLabel))
+
+from sklearn.model_selection import cross_val_score
+accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)
+accuracies.mean()
+accuracies.std()
 
 #Backward Elimination
 import statsmodels.formula.api as sm
-X = np.append(arr = np.ones((576, 1)).astype(int), values = X_train, axis = 1)
+X = np.append(arr = np.ones((576, 1)).astype(int), values = X, axis = 1)
 X_opt = X[:, [0, 1, 2, 3, 4]]
-regressor_OLS = sm.OLS(endog = y_train, exog = X_opt).fit()
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 regressor_OLS.summary()
 
