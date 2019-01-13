@@ -55,7 +55,7 @@ I will be doing 100 days of Machine learning, an hour a day
    
    Thoughts: Tomorrow, I will work on my project more and start a new section in the course.
  
-### Day 10: Jan 12th 2019:
+### Day 10: Jan 13th 2019:
    **Applying Model Selection**- Today, I improved the Grid Search on my DrivenData Project and improved everything. I also organized my GitHub a bit.
    
    Thoughts: Applying Grid Search to the project was a great idea! I was able to bring the model's accuracy from 76% to 80%. Tomorrow, I will update my GitHub some more, work on my project, work on a GDP project, and I will start learning about Clustering Algorithms
