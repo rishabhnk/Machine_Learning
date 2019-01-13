@@ -1,10 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 28 13:35:51 2018
+# Data Preprocessing Work
 
-@author: risha
-Data_Preprocessing
-"""
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
