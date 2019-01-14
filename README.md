@@ -61,6 +61,6 @@ I will be doing 100 days of Machine learning, an hour a day
    Thoughts: Applying Grid Search to the project was a great idea! I was able to bring the model's accuracy from 76% to 80%. Tomorrow, I will update my GitHub some more and I will start learning about Clustering Algorithms
 
 ### Day 11: Jan 14th 2019:
-   **Learning Clustering Algorithms **- Today, I started learning baout lcustering and the K-means algorithms. I also organized my GitHub a bit.
+   **Learning Clustering Algorithms**- Today, I started learning about clustering and the K-means algorithms. I also organized my GitHub a bit.
    
-   Thoughts: Clustering looks like it will be more complicated than regression and classification algorithms but it seems really intersting and I am excited to learn what I can do with it. Tomorrow, I will continue learning about K-means and work on my DrivenData project.
+   Thoughts: Clustering looks like it will be more complicated than the regression and classification algorithms but it seems really interesting and I am excited to learn what I can do with it. Tomorrow, I will continue learning about K-means and work on my DrivenData project.
