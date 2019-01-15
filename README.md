@@ -64,3 +64,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Learning Clustering Algorithms**- Today, I started learning about clustering and the K-means algorithms. I also organized my GitHub a bit.
    
    Thoughts: Clustering looks like it will be more complicated than the regression and classification algorithms but it seems really interesting and I am excited to learn what I can do with it. Tomorrow, I will continue learning about K-means and work on my DrivenData project.
+
+### Day 12: Jan 15th 2019:
+   **Learning Clustering Algorithms**- Today, I continued learning about clustering and the K-means algorithms.
+   
+   Thoughts: I learned more about the k-means clustering algorithm and I learned how to decide on the optimal number of clusters for the algorithm and the concept of how the method works
