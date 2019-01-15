@@ -68,4 +68,4 @@ I will be doing 100 days of Machine learning, an hour a day
 ### Day 12: Jan 15th 2019:
    **Learning Clustering Algorithms**- Today, I continued learning about clustering and the K-means algorithms.
    
-   Thoughts: I learned more about the k-means clustering algorithm and I learned how to decide on the optimal number of clusters for the algorithm and the concept of how the method works
+   Thoughts: I learned more about the k-means clustering algorithm and I learned how to decide on the optimal number of clusters and how the method to do so works
