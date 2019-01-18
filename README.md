@@ -2,6 +2,8 @@
 
 I will be doing 100 days of Machine learning, an hour a day
 
+(I did not start Machine Learning on January 4th, I just started tracking on that day)
+
 ### Day 1: Jan 4th 2019:
    **Learned Classification ML Models**- Learned about Logistic Regression, K-NN, SVM 
    
