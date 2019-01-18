@@ -9,7 +9,8 @@ import pandas as pd
 dataset = pd.read_csv('combined_results_filtered.csv')
 dataset = dataset.dropna(subset=['GDP']) # drop all rows that dont have a GDP value
 dataset = dataset.dropna(axis = 'columns')
-X = dataset.iloc[:, 1:22].values
+X = dataset.iloc[:, 1:11].values
+X = X[:, [0, 1, 2, 3, 5, 7, 9]]
 y = dataset.iloc[:, -1].values.reshape(-1, 1)
 
 # Taking care of missing data - mean strategy
@@ -50,18 +51,19 @@ linReg2 = LinearRegression()
 linReg2.fit(X_poly, y_train) 
 
 # Predicting a new result
-    y_pred = regressor.predict(X_test)
-    y_pred = linReg2.predict(polyReg.fit_transform(X_test))
-
+y_pred = regressor.predict(X_test)
+""" y_pred = linReg2.predict(polyReg.fit_transform(X_test))"""
+y_pred_unscale = sc_y.inverse_transform(y_pred)
+y_test_unscale = sc_y.inverse_transform(y_test)
 # Evaluation Metrics
 from sklearn.metrics import mean_absolute_error
-mean_absolute_error(y_test, y_pred)
+mean_absolute_error(y_test_unscale, y_pred_unscale)
 
 from sklearn.metrics import mean_squared_error
-mean_squared_error(y_test, y_pred)
+mean_squared_error(y_test_unscale, y_pred_unscale)
 
 from sklearn.metrics import r2_score
-r2_score(y_test, y_pred)
+r2_score(y_test_unscale, y_pred_unscale)
 
 from sklearn.model_selection import cross_val_score
 acc = cross_val_score(estimator = regressor, X = X_train, y = y_train, cv = 10 )
@@ -77,7 +79,6 @@ grid_search = grid_search.fit(X_train, y_train)
 best_acc = grid_search.best_params_
 best_acc = grid_search.best_score_
 
-
 #Date vs GDP
 plt.plot(X_test[:,0], y_test, color = 'blue')
 plt.title('Date vs GDP')
@@ -85,22 +86,12 @@ plt.xlabel('Date')
 plt.ylabel('GDP')
 plt.show()
 
-"""
-# Visualising the Regression results
-plt.scatter(X, y, color = 'red')
-plt.plot(X, regressor.predict(X), color = 'blue')
-plt.title('Truth or Bluff (Regression Model)')
-plt.xlabel('Position level')
-plt.ylabel('Salary')
-plt.show()
-
-# Visualising the Regression results (for higher resolution and smoother curve)
-X_grid = np.arange(min(X), max(X), 0.1)
-X_grid = X_grid.reshape((len(X_grid), 1))
-plt.scatter(X, y, color = 'red')
-plt.plot(X_grid, regressor.predict(X_grid), color = 'blue')
-plt.title('Truth or Bluff (Regression Model)')
-plt.xlabel('Position level')
-plt.ylabel('Salary')
-plt.show()
-"""
+#Backward Elimination
+import statsmodels.formula.api as sm
+X = np.append(arr = np.ones((223, 1)).astype(int), values = X, axis = 1)
+X_opt = X[:, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+X_opt = X[:, [0, 1, 2, 3, 5, 7, 9]]
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
