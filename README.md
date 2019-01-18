@@ -69,3 +69,18 @@ I will be doing 100 days of Machine learning, an hour a day
    **Learning Clustering Algorithms**- Today, I continued learning about clustering and the K-means algorithms.
    
    Thoughts: I learned more about the k-means clustering algorithm and I learned how to decide on the optimal number of clusters and how the method to do so works
+   
+### Day 13: Jan 16th 2019:
+   **Project GDP**- Today, I started working on the GDP Project. The data preprocessing is a little difficult but it is still manageable. Will have the data ready fro implementing the algorithm tomrorow.
+   
+   Thoughts: There is a lot of work to do, especially with  manipulating the data but I will have it done soon.
+   
+### Day 14: Jan 17th 2019:
+   **Project GDP**- Today, I continued working ont he GDP project. I was able to write a lot of the code today. I included evaluation metrics and grid search and have I am leaning towards using the Random Forest Regression for my model
+   
+   Thoughts: So far so good. I will finalize my decision on which model to choose based on the evaluation metrics and I will fine tune the model and the code tomorrow
+      
+### Day 15: Jan 18th 2019:
+   **Project GDP**- Today, I worked on the GDP project more. I implemented backwrds elimination and finalized which algorithm I will use as my model
+   
+   Thoughts: I think I am almost done with this. I hope that the model turnout is accurate and efficient.
