@@ -86,3 +86,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Project GDP**- Today, I worked on the GDP project more. I implemented backwrds elimination and finalized which algorithm I will use as my model
    
    Thoughts: I think I am almost done with this. I hope that the model turnout is accurate and efficient.
+   
+### Day 16: Jan 19th 2019:
+   **Review the Basics**- Today, I reviewed numpy and pandas basics as well as some basic data manipulation.
+   
+   Thoughts: So far so good. I am going to continute this a bit more. In addition to reviewing Python data manipulations, I will also review R data manipulation and learn Convolutional Neuro-Networks.
