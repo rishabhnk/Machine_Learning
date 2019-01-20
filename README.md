@@ -91,3 +91,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics**- Today, I reviewed numpy and pandas basics as well as some basic data manipulation.
    
    Thoughts: So far so good. I am going to continue this. In addition to reviewing Python data manipulations, I will also review R data manipulation and learn Convolutional Neural Networks.
+
+### Day 17: Jan 20th 2019:
+   **Review the Basics**- Today, I finished reviewing python basics.
+   
+   Thoughts: I am very confident with python. I am going to do R and CNNs soon
