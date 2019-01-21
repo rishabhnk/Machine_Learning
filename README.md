@@ -96,3 +96,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics**- Today, I finished reviewing python basics.
    
    Thoughts: I am very confident with python. I am going to do R and CNNs soon
+
+### Day 18: Jan 21th 2019:
+   **Review the Basics**- Today, I started my R review. I went over the very basics.
+   
+   Thoughts: I am glad that I am reviewing R. I will be done within a week and then I will start CNNs
