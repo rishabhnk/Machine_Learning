@@ -106,3 +106,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics**- Today, I finished reviewing vectors and matrices for R
    
    Thoughts: So far so good!
+
+### Day 20: Jan 23th 2019:
+   **Review the Basics**- Today, I finished reviewing factors for R
+   
+   Thoughts: So far so good! Next up is dataframes!
