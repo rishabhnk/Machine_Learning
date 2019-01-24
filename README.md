@@ -111,3 +111,8 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics**- Today, I finished reviewing factors for R
    
    Thoughts: So far so good! Next up is dataframes!
+
+### Day 21: Jan 24th 2019:
+   **Review the Basics**- Today, I started reviewing dataframes for R
+   
+   Thoughts: Almost done with dataframes, next is lists!
