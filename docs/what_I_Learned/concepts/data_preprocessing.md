@@ -13,8 +13,9 @@ Reading:
 ## Machine Learning:
 
 ### Taking care of missing data
-Using Imputer class to create an Imputer object that will fill the missing values with the mean of row/column. (1 = col, 0 = row)
+  =Using Imputer class to create an Imputer object that will fill the missing values with the mean of row/column. (1 = col, 0 = row)
 
+Syntax:
 from sklearn.preprocessing import Imputer
 imputer = Imputer(missing_values="NaN", strategy="mean", axis = 0)
 X[:,1:3] = imputer.fit_transform(X[:,1:3])
