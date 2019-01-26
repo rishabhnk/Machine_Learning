@@ -13,7 +13,10 @@ Reading:
 ## Machine Learning:
 
 ### Taking care of missing data
+
   =Using Imputer class to create an Imputer object that will fill the missing values with the mean of row/column. (1 = col, 0 = row)
+
+---------------------------------
 
 Syntax:
 
@@ -26,7 +29,8 @@ X[:,1:3] = imputer.fit_transform(X[:,1:3])
 ### Encoding categorical
 
   = Using the LabelEncoder class from the sklearn.preprocessing library to make an object that will encode all categorical variables in the specified indeces into numbers. 
-    But because encoding into numbers will give an inherent ordering, we can use the OneHotEncoder class from the same library to make an object that will fit and transform our categorical variables into dummy variables. (be sure to include the .toarray()) Because you specify which columns are categorical that you want to one hot encode, you can pass the whole X matrix into the fit_transform.
+  
+  = But because encoding into numbers will give an inherent ordering, we can use the OneHotEncoder class from the same library to make an object that will fit and transform our categorical variables into dummy variables. (be sure to include the .toarray()) Because you specify which columns are categorical that you want to one hot encode, you can pass the whole X matrix into the fit_transform.
 
 ---------------------------------
 
