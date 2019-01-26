@@ -1,45 +1,45 @@
-Concepts:
+## Concepts:
 
-Simple Linear Regression:
+### Simple Linear Regression:
 
   
   
-Multi Linear Regression:
+### Multi Linear Regression:
 
 *avoid the dummy variable trap - dont duplicate a dummy var bc the model cant distinguish between the effect of 2 dummies if D2 = 1 - D1 --> awlays eliminate one of the dummy variables
 
-Polynomial Linear Regresion:
+### Polynomial Linear Regresion:
 
-Suport Vector Machine Regression:
+### Suport Vector Machine Regression:
 
-Decision Tre Regression:
+### Decision Tre Regression:
 
-Random Forest Regression:
+### Random Forest Regression:
 
 
-Syntax:
+## Syntax:
 
-Simple Linear Regression:
+### Simple Linear Regression:
 
   from sklearn.linear_model import Linear_Regression
 
-Multi Linear Regression:
+### Multi Linear Regression:
 
   from sklearn.linear_model import LinearRegression  
 
-Polynomial Linear Regresion:
+### Polynomial Linear Regresion:
 
   from sklearn.preprocessing import PolynomialFeatures
 
-Suport Vector Machine Regression:
+### Suport Vector Machine Regression:
 
   from sklearn.svm import SVR
 
-Decision Tre Regression:
+### Decision Tre Regression:
 
   from sklearn.tree import DecisionTreeRegressor
 
-Random Forest Regression:
+### Random Forest Regression:
 
   from sklearn.ensemble import RandomForestRegressor  
 
