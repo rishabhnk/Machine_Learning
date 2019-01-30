@@ -121,3 +121,16 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics**- Today, I finished dataframes and started reviewing Lists for R
    
    Thoughts: So far so good!
+   
+### Day 22: Jan 26th 2019:
+   **Review the Basics**- Today I stopped R and started reviewing the Machine Learning algorithms in python
+   
+### Day 22: Jan 27th 2019:
+   **Review the Basics**- Today, I continued reviewing the Machine Learning algorithms in python and worked with my dad on additional higher level concepts
+   
+### Jan 28 and 29th 2019:
+   **Days Missed** - Missed because I had finalize summer app essays and so much work from school
+   
+### Day 23: Jan 30th 2019:
+   **Review the Basics** - Back on track! I reviewed some more data manipulations in python and added some of the syntax statements to my github so I could refer to it them I forget them.
+   
