@@ -2,7 +2,7 @@
 
 ### Simple Linear Regression:
 
-  
+  - fitting a staright line to the data.
   
 ### Multi Linear Regression:
 
@@ -10,6 +10,8 @@
 
 ### Polynomial Linear Regresion:
 
+  - Fitting the data with a polynomial , degree is specified.
+  
 ### Suport Vector Machine Regression:
 
   *need to apply feature scaling!*
@@ -33,7 +35,8 @@
   - average of the points in that terminal leaf gets assigned to the y-value of the new data point.
 
 ### Random Forest Regression:
-
+  
+  - for each new data point, make each tree predict y-val, and assign the new data point the avg of all tose y-vals.
 
 ## Syntax:
 
@@ -60,9 +63,3 @@
 ### Random Forest Regression:
 
   from sklearn.ensemble import RandomForestRegressor  
-
-
-
-
-Backwards Elimation
-
