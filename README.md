@@ -133,4 +133,6 @@ I will be doing 100 days of Machine learning, an hour a day
    
 ### Day 23: Jan 30th 2019:
    **Review the Basics** - Back on track! I reviewed some more data manipulations in python and added some of the syntax statements to my github so I could refer to it them I forget them.
-   
+
+### Day 24: Februray 1st 2019:
+   **Review the Basics** - I reviewed the classification algorithms and organized my github a little
