@@ -39,29 +39,3 @@
 ### Random Forest Regression:
   
   - for each new data point, make each tree predict y-val, and assign the new data point the avg of all tose y-vals.
-
-## Syntax:
-
-### Logistic Regression:
-
-  from sklearn.linear_model import Logistic Regression
-  
-### K- Nearest Neighbors (KNN):
-
-  from sklearn.neighbors import KNeighborsClassifier
-
-### SVM:
-
-  from sklearn.svm import SVC
-
-### Naive Bayes Classifier:
-
-  from sklearn.naive_bayes import GaussianNB
-
-### Decision Tree Classification:
-
-  from sklearn.tree import DecisionTreeClassifier
-
-### Random Forest Regression:
-
-  from sklearn.ensemble import RandomForestClassifier  
