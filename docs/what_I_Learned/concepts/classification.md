@@ -1,26 +1,28 @@
-## Concepts:
+## Concepts
 
 ### Logistic Regression:
 
-  
+  from sklearn.linear_model import Logistic Regression
   
 ### K- Nearest Neighbors (KNN):
 
-*avoid the dummy variable trap - dont duplicate a dummy var bc the model cant distinguish between the effect of 2 dummies if D2 = 1 - D1 --> awlays eliminate one of the dummy variables*
+  from sklearn.neighbors import KNeighborsClassifier
 
-### Polynomial Linear Regresion:
+### SVM:
 
-  - Fitting the data with a polynomial , degree is specified.
-  
-### Suport Vector Machine Regression:
+  from sklearn.svm import SVC
 
-  *need to apply feature scaling!*
-  
- - The goal of the algorithm is to find the maximum distance between the hyperplane (middle line of the street) and the outer vectors (vector = point). 
- 
- - This measurement is described by the variable Epsilon. Basically, we are trying to find the maximum value of Epsilon so that it can capture all the points but the algorithm will ignore the outliers. 
- 
- - It is basically like using multiple linear regressions or multiple gaussian regressions becasue we also have a measure of error for our model that accounts for expected variability.
+### Naive Bayes Classifier:
+
+  from sklearn.naive_bayes import GaussianNB
+
+### Decision Tree Classification:
+
+  from sklearn.tree import DecisionTreeClassifier
+
+### Random Forest Regression:
+
+  from sklearn.ensemble import RandomForestClassifier  
 
 ### Decision Tree Regression:
 
@@ -50,11 +52,11 @@
 
 ### SVM:
 
-  
+  from sklearn.svm import SVC
 
 ### Naive Bayes Classifier:
 
-  
+  from sklearn.naive_bayes import GaussianNB
 
 ### Decision Tree Classification:
 
@@ -62,4 +64,4 @@
 
 ### Random Forest Regression:
 
-  
+  from sklearn.ensemble import RandomForestClassifier  
