@@ -37,29 +37,3 @@
 ### Random Forest Regression:
   
   - for each new data point, make each tree predict y-val, and assign the new data point the avg of all tose y-vals.
-
-## Syntax:
-
-### Simple Linear Regression:
-
-  from sklearn.linear_model import Linear_Regression
-
-### Multi Linear Regression:
-
-  from sklearn.linear_model import LinearRegression  
-
-### Polynomial Linear Regresion:
-
-  from sklearn.preprocessing import PolynomialFeatures
-
-### Suport Vector Machine Regression:
-
-  from sklearn.svm import SVR
-
-### Decision Tree Regression:
-
-  from sklearn.tree import DecisionTreeRegressor
-
-### Random Forest Regression:
-
-  from sklearn.ensemble import RandomForestRegressor  
