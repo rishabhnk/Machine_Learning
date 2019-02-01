@@ -18,7 +18,7 @@
 
 ### SVM:
 
-  Linear:
+  Linear
       
     - want line w maximum margin, distance between support vectors and hyperplane = max
        
@@ -26,7 +26,7 @@
        
     - Because of this, SVM can be very different from other ML algorithms, and in some cases can be much better.
        
-  Kernel:
+  Kernel
   
     1. mapping to a higher dimension using a mapping function and using a line or plane to seprate the data, then project back to the original dimension classified groups.
     
