@@ -57,15 +57,15 @@
   
   3. new data pont gets assigned to the majority vote among all the trees prediction of category.
   
-### Evaluation metrics:
+## Evaluation metrics:
 
-##### Confusion Matrix
+### Confusion Matrix
 
 from sklearn.metrics import confusion_matrix
 
 cm = confusion_matrix(y_test, y_predLabel)
 
-##### Accuracy score
+### Accuracy score
 
 classifier.score(X_test, y_test)
 
@@ -73,13 +73,13 @@ from sklearn.metrics import accuracy_score
 
 accuracy_score(y_test, y_predLabel)
 
-##### Classification Report
+### Classification Report
 
 from sklearn.metrics import classification_report
 
 print(classification_report(y_test, y_predLabel))
 
-##### k-fold cross validation
+### k-fold cross validation
 
 from sklearn.model_selection import cross_val_score
 
