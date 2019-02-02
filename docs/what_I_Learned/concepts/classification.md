@@ -42,28 +42,19 @@
 
 ### Decision Tree Classification:
 
+    *dont need feature scaling*
+    
+  - make splits in data that separates the different categories. each new data point goes through decision tree and lands in a terminal leaf and gets assigned to the corresponding category of that leaf
 
 
 ### Random Forest Regression:
 
-  
+ *need feature scaling*
 
-### Decision Tree Regression:
-
-  *use high res graphing*
-
-  - Creates splits in data in a way that each split adds value to the information we have about the points. 
+  1.  pick k random points for a training set and build decision tree based on them
   
-  - Each new box that is created is called a leaf and each split that is created is correspondeding to a split in the model's decision tree. Each leaf has an average of the points it contains. 
+  2. choose number of trees
   
-  - Each new data point goes through the decision tree logic and then lands in a terminal leaf
+  3. new data pont gets assigned to the majority vote among all the trees prediction of category.
   
-  - average of the points in that terminal leaf gets assigned to the y-value of the new data point.
-
-### Random Forest Regression:
-  
-  - for each new data point, make each tree predict y-val, and assign the new data point the avg of all tose y-vals.
-  
-  
-Evaluating Metrics:
-
+### Evaluation metrics:
