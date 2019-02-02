@@ -1,1 +1,7 @@
+## Concepts
 
+K-means Algorithm
+  - 
+  - 
+  - 
+  
