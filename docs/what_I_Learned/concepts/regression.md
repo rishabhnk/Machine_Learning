@@ -37,3 +37,20 @@
 ### Random Forest Regression:
   
   - for each new data point, make each tree predict y-val, and assign the new data point the avg of all tose y-vals.
+
+## Evaluation Metrics:
+
+### Mean Absolute Error
+from sklearn.metrics import mean_absolute_error
+mean_absolute_error(y_test, y_pred)
+### Mean Sqwuared Error
+from sklearn.metrics import mean_squared_error
+mean_squared_error(y_test, y_pred)
+### R Sqaured Score
+from sklearn.metrics import r2_score
+r2_score(y_test, y_pred)
+### k-fold cross validation
+from sklearn.model_selection import cross_val_score
+acc = cross_val_score(estimator = regressor, X = X_train, y = y_train, cv = 10 )
+acc.mean()
+acc.std()
