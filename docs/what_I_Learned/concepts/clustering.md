@@ -1,6 +1,6 @@
 ## Concepts
 
-K-means Algorithm
+### K-means Algorithm
   - 
   - 
   - 
