@@ -139,3 +139,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 25: Februray 2nd 2019:
    **Basics and Clustering** - Today, I reviewed the rest of the classification algorithms and also the evaluation metrics for regression and classification and updated my github. Then I learned more about k-means clustering (theory and code).
+
+### Day 26: Februray 3rd 2019:
+   **Clustering** - Today, I learned more about the k-means clustering algorithm.
