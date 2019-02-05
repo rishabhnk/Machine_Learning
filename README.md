@@ -142,3 +142,11 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 26: Februray 3rd 2019:
    **Clustering** - Today, I learned more about the k-means clustering algorithm.
+
+### Day 27: Februray 4th 2019:
+   **Review the Basics** - Today, I reviewed Numpy basics
+   
+### Day 28: Februray 5th 2019:
+   **Review the Basics** - Today, I reviewed dictionaries and pandas dataframe basics
+   
+   Thoughts: Almost done with this. After I finished, I will review my knowledge on all the algorithms one more time and then move on to Convolutional Neural Networks. I am so excited!
