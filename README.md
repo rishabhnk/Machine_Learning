@@ -122,31 +122,31 @@ I will be doing 100 days of Machine learning, an hour a day
    
    Thoughts: So far so good!
    
-### Day 22: Jan 26th 2019:
+### Day 23: Jan 26th 2019:
    **Review the Basics**- Today I stopped R and started reviewing the Machine Learning algorithms in python
    
-### Day 22: Jan 27th 2019:
+### Day 24: Jan 27th 2019:
    **Review the Basics**- Today, I continued reviewing the Machine Learning algorithms in python and worked with my dad on additional higher level concepts
    
 ### Jan 28 and 29th 2019:
    **Days Missed** - Missed because I had finalize summer app essays and so much work from school
    
-### Day 23: Jan 30th 2019:
+### Day 25: Jan 30th 2019:
    **Review the Basics** - Back on track! I reviewed some more data manipulations in python and added some of the syntax statements to my github so I could refer to it them I forget them.
 
-### Day 24: Februray 1st 2019:
+### Day 26: Februray 1st 2019:
    **Review the Basics** - I reviewed the classification algorithms and organized my github a little
 
-### Day 25: Februray 2nd 2019:
+### Day 27: Februray 2nd 2019:
    **Basics and Clustering** - Today, I reviewed the rest of the classification algorithms and also the evaluation metrics for regression and classification and updated my github. Then I learned more about k-means clustering (theory and code).
 
-### Day 26: Februray 3rd 2019:
+### Day 28: Februray 3rd 2019:
    **Clustering** - Today, I learned more about the k-means clustering algorithm.
 
-### Day 27: Februray 4th 2019:
+### Day 29: Februray 4th 2019:
    **Review the Basics** - Today, I reviewed Numpy basics
    
-### Day 28: Februray 5th 2019:
+### Day 30: Februray 5th 2019:
    **Review the Basics** - Today, I reviewed dictionaries and pandas dataframe basics
    
    Thoughts: Almost done with this. After I finished, I will review my knowledge on all the algorithms one more time and then move on to Convolutional Neural Networks. I am so excited!
