@@ -150,3 +150,7 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics** - Today, I reviewed dictionaries and pandas dataframe basics
    
    Thoughts: Almost done with this. After I finished, I will review my knowledge on all the algorithms one more time and then move on to Convolutional Neural Networks. I am so excited!
+
+### Day 31: Februray 6th 2019:
+   **Review the Basics** - Today, I finished reviewing dictionaries and pandas dataframe basics. 
+   
