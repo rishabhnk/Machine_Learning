@@ -154,3 +154,5 @@ I will be doing 100 days of Machine learning, an hour a day
 ### Day 31: Februray 6th 2019:
    **Review the Basics** - Today, I finished reviewing dictionaries and pandas dataframe basics. 
    
+### Day 32: Februray 11th 2019:
+   **Deep Learning** - So I have kind of been doing ML on and off, its not that big of a deal. Starting today I am learning Deep Learning and I am very excited. Today, I learned about neural network basics and some background knowledge on neural networks and deep learning.
