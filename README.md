@@ -155,4 +155,7 @@ I will be doing 100 days of Machine learning, an hour a day
    **Review the Basics** - Today, I finished reviewing dictionaries and pandas dataframe basics. 
    
 ### Day 32: Februray 11th 2019:
-   **Deep Learning** - So I have kind of been doing ML on and off, its not that big of a deal. Starting today I am learning Deep Learning and I am very excited. Today, I learned about neural network basics and some background knowledge on neural networks and deep learning.
+   **Deep Learning** - So I have kind of been doing ML on and off the last few days, its not that big of a deal. Starting today I am learning Deep Learning and I am very excited. Today, I learned about neural network basics and some background knowledge on neural networks and deep learning.
+
+### Day 33: Februray 12th 2019:
+   **Deep Learning** - Today I covered binary classification, notation, Logistic Regression basics, and the logistic regression cost function.
