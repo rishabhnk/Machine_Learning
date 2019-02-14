@@ -159,3 +159,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 33: Februray 12th 2019:
    **Deep Learning** - Today I covered binary classification, notation, Logistic Regression basics, and the logistic regression cost function.
+
+### Day 34: Februray 14th 2019:
+   **Deep Learning** - Today I covered gradient descent, derivatives, and computation graph basics.
