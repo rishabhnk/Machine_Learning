@@ -162,3 +162,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 34: Februray 14th 2019:
    **Deep Learning** - Today I covered gradient descent, derivatives, and computation graph basics.
+
+### Day 35: Februray 15th 2019:
+   **Deep Learning** - Today I covered the concepts of backwards and forwards propogation and started learning how to use gradient descent in logistic regression using computation graphs. VERY COOL!!!
