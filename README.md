@@ -165,3 +165,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 35: Februray 15th 2019:
    **Deep Learning** - Today I covered the concepts of backwards and forwards propogation and started learning how to use gradient descent in logistic regression using computation graphs. VERY COOL!!!
+
+### Day 36: Februray 18th 2019:
+   **Deep Learning** - Today I reviewed GD in Log Reg and started learning vectorization
