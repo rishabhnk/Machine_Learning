@@ -168,3 +168,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 36: Februray 18th 2019:
    **Deep Learning** - Today I reviewed GD in Log Reg and started learning vectorization
+
+### Day 37: Februray 19th 2019:
+   **Deep Learning** - Today I finished learning learning vectorization of forward and backward propogation in gradient descent and started learning broadcasting. Also I started a new jupyter notebook and its pretty cool yay!
