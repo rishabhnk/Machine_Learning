@@ -171,3 +171,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 37: Februray 19th 2019:
    **Deep Learning** - Today I finished learning learning vectorization of forward and backward propogation in gradient descent and started learning broadcasting. Also I started a new jupyter notebook and its pretty cool yay!
+
+### Day 42: Februray 28th 2019:
+   **Deep Learning** - Well it looks like I did not update my github even though I was still doing machine learning. I did skip a few days because of midterms however. I am gonna guess that I did 5 days of machine learning over the time I missed recording. Today I learned about vectorizing the implementation of shallow neural networks.
