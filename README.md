@@ -174,3 +174,6 @@ I will be doing 100 days of Machine learning, an hour a day
 
 ### Day 42: Februray 28th 2019:
    **Deep Learning** - Well it looks like I did not update my github even though I was still doing machine learning. I did skip a few days because of midterms however. I am gonna guess that I did 5 days of machine learning over the time I missed recording. Today I learned about vectorizing the implementation of shallow neural networks.
+
+### Day 43: March 1st 2019:
+   **Deep Learning** - Today I learned about activation functions and the derivatives of the different activation functions for backpropogation in Gradient Descent.
